@@ -71,7 +71,7 @@ def all_delete():
 	return make_response('', 204)
 #curl -X DELETE http://localhost:5000/
     
-app.run(debug=True,
-host="127.0.0.0",
+app.run( #debug=True,
+host="0.0.0.0",
 port=5000
 )
